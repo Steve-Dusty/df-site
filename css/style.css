@@ -1,0 +1,60 @@
+.beginning{
+    text-align: center;
+    background-color: green;
+    border: solid;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    color: white;
+    border-color: black;
+  }
+* {
+    box-sizing: border-box;
+  }
+  
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    border:solid 5px green;
+  
+  }
+  
+.platforms{
+
+}
+  .icons{
+
+    width: 140px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-left: -70px; /*half the size of width*/
+ 
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.fa-discord{
+    font-size: 70px;
+    color: #7289DA;
+
+  }
+
+.fa-reddit{
+    font-size: 70px;
+    color: #FF4500;
+
+  }
+
+/*.fa-patreon{
+  font-size: 70px;
+  color: #f96854
+
+}*/
