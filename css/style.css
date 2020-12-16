@@ -16,15 +16,40 @@
   
 
 /* Create three equal columns that floats next to each other */
-.column {
-    float: left;
+
+.row{
+  display: flex;
+
+}
+.row>* {
+
+  border:solid 5px green;
+  padding:10px;
+
+  /*float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; 
+    overflow: auto;
+    min-height: 300px;
     border:solid 5px green;
-  
+    
+  */
   }
-  
+
+.column-1{
+  flex:1;
+
+}
+
+.column-2{
+  flex:1;
+
+}
+
+.column-3{
+  flex:1;;
+
+}
 .platforms{
   /*not needed for now*/
 }
