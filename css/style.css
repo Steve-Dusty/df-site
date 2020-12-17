@@ -44,12 +44,18 @@
 .platforms{
   /*not needed for now*/
 }
+
+.icons{
+  display: flex;
+  justify-content: center;
+
+}
   .icons{
-    
-    width: 140px;
-    position: absolute;
-    top: 70%;
+
+    margin-right: 24px;
+    /*width: 140px;
     left: 50%;
+    bottom: 0%;
     margin-left: -70px; /*half the size of width*/
  
   }
