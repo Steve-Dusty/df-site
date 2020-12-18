@@ -47,17 +47,16 @@
 
 .column-1{
   flex:1;
-
 }
 
 .column-2{
   flex:1;
-
+  display: none;
 }
 
 .column-3{
   flex:1;;
-
+  display: none;
 }
 .platforms{
   /*not needed for now*/
@@ -66,17 +65,16 @@
 .icons{
   display: flex;
   justify-content: center;
-  transition: transform .2s;
 
 
 
 }
 
-
-.icons:hover{
+.icons > a:hover{
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
   transform: scale(1.05); 
+  transition: 1.2;
 
 }
 

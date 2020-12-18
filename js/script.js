@@ -1,7 +1,10 @@
+function checker(){
 
-alert("right"); 
+    
+}
+
 function toggler() {
-    var x = document.getElementsByClassName("column1");
+    var x = document.getElementsByClassName("column-1")[0];
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
@@ -11,7 +14,7 @@ function toggler() {
 
 
 function toggler2() {
-    var y = document.getElementsByClassName("column2");
+    var y = document.getElementsByClassName("column-2")[0];
     if (y.style.display === "none") {
       y.style.display = "block";
     } else {
@@ -20,7 +23,7 @@ function toggler2() {
   }
 
 function toggler3() {
-    var z = document.getElementsByClassName("column3");
+    var z = document.getElementsByClassName("column-3")[0];
     if (z.style.display === "none") {
       z.style.display = "block";
     } else {
