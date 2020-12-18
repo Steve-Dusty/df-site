@@ -1,0 +1,106 @@
+*{
+  background-color: #73956f;
+}
+
+.beginning{
+    text-align: center;
+    background-color: green;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    color: white;
+    border-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+* {
+    box-sizing: border-box;
+  }
+  
+.button{
+  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: green;
+}
+/* Create three equal columns that floats next to each other */
+
+.row{
+  display: flex;
+
+}
+.row div{
+
+  border:solid 5px green;
+  padding:10px;
+  font-family: 'Ubuntu', sans-serif;
+
+  }
+
+.column-1{
+  flex:1;
+}
+
+.column-2{
+  flex:1;
+  display: none;
+}
+
+.column-3{
+  flex:1;;
+  display: none;
+}
+.platforms{
+  /*not needed for now*/
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+.icons > a:hover{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+  transition: 1.2;
+
+}
+
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.fa-discord{
+    font-size: 40px;
+    color: #7289DA;
+
+
+  }
+
+.fa-reddit{
+    font-size: 40px;
+    color: #FF4500;
+
+  }
+
+/*.fa-patreon{
+  font-size: 70px;
+  color: #f96854
+
+}*/
