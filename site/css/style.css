@@ -46,6 +46,7 @@ body{
 
 .row{
   display: flex;
+  justify-content:flex-end;
 
 }
 .row div{
@@ -54,20 +55,26 @@ body{
   background-color: #09591e;
 
 
+
   }
 
 .column-1{
   flex:1;
+  text-align:center;
+
 }
 
 .column-2{
   flex:1;
+  text-align:center;
   display: none;
 }
 
+
 .column-3{
-  flex:1;;
+  flex:1;
   display: none;
+  text-align:center;
 }
 .platforms{
   /*not needed for now*/
