@@ -18,15 +18,28 @@
 
 body{
 
-  background: #0a4518;
+  background-image: url("../images/background.jpg");
 
 
 
 }
 
+
+
 #myButtons{
   display:flex;
   justify-content: center;
+
+
+}
+
+#myButtons > button:hover{
+
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+  transition: 3;
+
 
 }
 
@@ -39,10 +52,8 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #008000;
-
+    background-image: linear-gradient(to right top, #0f6323, #13762d, #178937, #199d42, #1bb24e, #2bbf56, #39cd5f, #46da67, #5ce36e, #6fec75, #81f67c, #92ff84);
 }
-/* Create three equal columns that floats next to each other */
 
 .row{
   display: flex;
@@ -53,6 +64,7 @@ body{
 
   padding:10px;
   background-color: #09591e;
+  border: 2px solid;
 
 
 
@@ -75,7 +87,10 @@ body{
   flex:1;
   display: none;
   text-align:center;
+
 }
+
+
 .platforms{
   /*not needed for now*/
 }
