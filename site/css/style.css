@@ -60,19 +60,14 @@ body{
   justify-content:flex-end;
 
 }
-.row div{
 
-  padding:10px;
-  background-color: #09591e;
-  border: 2px solid;
-
-
-
-  }
 
 .column-1{
   flex:1;
   text-align:center;
+  padding:10px;
+  background-color: #09591e;
+  border: 2px solid;
 
 }
 
@@ -80,6 +75,9 @@ body{
   flex:1;
   text-align:center;
   display: none;
+  padding:10px;
+  background-color: #09591e;
+  border: 2px solid;
 }
 
 
@@ -87,15 +85,16 @@ body{
   flex:1;
   display: none;
   text-align:center;
-  
-  
+  padding:10px;
+  background-color: #09591e;
+  border: 2px solid;
+}
+
+.box{
+  display: inline-block;
 
 }
 
-
-.platforms{
-  /*not needed for now*/
-}
 
 .icons{
   display: flex;
@@ -133,9 +132,3 @@ body{
     color: #FF4500;
 
   }
-
-/*.fa-patreon{
-  font-size: 70px;
-  color: #f96854
-
-}*/
