@@ -1,2 +1,2 @@
 # df-site
-Here is the actual site for Domfights.io
+Really old site for the abandoned Domfights.io. :(
